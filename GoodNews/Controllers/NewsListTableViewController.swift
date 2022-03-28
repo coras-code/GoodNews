@@ -18,8 +18,7 @@ class NewsListTableViewController: UITableViewController {
     private func setup() { //private so that it can only be called in this class
 //        self.navigationController?.navigationBar.prefersLargeTitles = true //bar tint doesnt work with large titles - xcode bug
 
-        let url = URL(string: "https://newsapi.org/v2/top-headlines?country=uk&apiKey=fc573195ef4d45ff861716105e9b684e")!
-        Webservice().getArticles(url: url, completion: { _ in})
+        Webservice().fetchArticles(completion: { _ in})
     }
     
 }

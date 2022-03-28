@@ -18,6 +18,7 @@ models, views, controllers, viewmodels, services (seen two people do the former 
 Try? 
 Force unwrapping the URL, some projects use guard others use ! force unwrapping 
 private
+content hugging priorty (vertical)- increased the description label by 1, so if the constraints break, it will be this label
 
 ### Changes to original 
 naming of func getArticles to fetchArticles 

@@ -17,6 +17,7 @@ What is better naming for folders, singular or plural? i.e. model, view, control
 models, views, controllers, viewmodels, services (seen two people do the former and one do the latter)
 Try? 
 Force unwrapping the URL, some projects use guard others use ! force unwrapping 
+private
 
 ### Changes to original 
 naming of func getArticles to fetchArticles 

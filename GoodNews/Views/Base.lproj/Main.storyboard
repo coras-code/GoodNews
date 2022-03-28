@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="GkT-FP-Otg">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="GkT-FP-Otg" customClass="ArticleTableViewCell" customModule="GoodNews" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GkT-FP-Otg" id="eOr-Xh-ApD">
@@ -48,6 +48,10 @@
                                         <constraint firstItem="0Vj-Gi-NWi" firstAttribute="leading" secondItem="eOr-Xh-ApD" secondAttribute="leadingMargin" id="t05-dJ-Ddk"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="sIh-bg-6ie" id="ec3-2a-i4P"/>
+                                    <outlet property="titleLabel" destination="dHW-wT-Lfr" id="pSh-LU-N4M"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

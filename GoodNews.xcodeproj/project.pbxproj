@@ -56,8 +56,8 @@
 		4384B31B27F1FD77007812D1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4384B31C27F1FD8E007812D1 /* Cells */,
 				43A3A7E727D513FD005CAC78 /* Main.storyboard */,
+				4384B31C27F1FD8E007812D1 /* Cells */,
 				43A3A7F727D5144A005CAC78 /* Controllers */,
 			);
 			path = Views;
